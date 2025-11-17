@@ -14,8 +14,8 @@ banana = # код тут
 
 
 # task 04 == виправте назви змінних
-1_storona = 1
-?torona_2 = 2
+storona = 1
+storona_2 = 2
 сторона_3 = 3
 $torona_4 = 4
 
