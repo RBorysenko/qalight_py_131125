@@ -14,14 +14,14 @@ banana = # код тут
 
 
 # task 04 == виправте назви змінних
-storona = 1
+storona_1 = 1
 storona_2 = 2
-сторона_3 = 3
-$torona_4 = 4
+storona_3 = 3
+storona_4 = 4
 
 # task 05 == Порахуйте периметр фігури з task 04
 # та виведіть його для користувача
-perimetery = ? + ? + ? + ?
+perimetery = storona_1 + storona_2 + storona_3 + storona_4
 print()
 
 
