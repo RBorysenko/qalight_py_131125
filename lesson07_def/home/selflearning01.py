@@ -25,9 +25,9 @@
 def analyze_list(numbers):
     if not numbers:
         return {'sum': 0, 'max': None, 'min': None, 'len': 0}
-    return {
+    return {'sum': 0, 'max': None, 'min': None, 'len': 0}
         # Ваш код тут
-    }
+    #        {'sum': sum(numbers), 'max': max(numbers), 'min': min(nu)None, 'len': 0    }
 
 # -------------------------------------------------------------------------------------
 
@@ -75,9 +75,11 @@ def greet(name, greeting="Привіт"):
 # multiply_all(10, 2) повинна повернути 20
 # multiply_all() повинна повернути 1
 def multiply_all(*args):
-    # Ваш код тут   
-    return 
-
+        # Ваш код тут
+    x = 1
+    for num in args:
+        x = num * x
+    return x
 # -------------------------------------------------------------------------------------
 
 # Завдання 5: Використання `**kwargs`
@@ -117,9 +119,17 @@ def create_profile(**kwargs):
 # повинна повернути: "Cities: Item: Kyiv, Item: Lviv"
 def format_data(main_title, *items, **options):
     # Ваш код тут
-
-    return 
-
+    new_items = []
+    if "prefix" in options and items:
+        for item in items
+            item = f"{options.get('prefix')}: {item}"
+            new_items.append(item)
+    if "separator" in options and items:
+        line = options.get('separator').join(items)
+    return f"{main_title}: {line}"
+out = format_data("Products", "Apple", "Banana", separator=" | ", prefix="Fruit")
+out_2 = format_data("Cities", "Kyiv", "Lviv")
+print(out_2)
 # -------------------------------------------------------------------------------------
 
 # Завдання 7: Лямбда-функції
