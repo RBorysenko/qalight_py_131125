@@ -66,3 +66,4 @@ if __name__ == "__main__":
     sum_numbers_in_list([])  # ValueError
     sum_numbers_in_list("21")  # ValueError
     """
+
