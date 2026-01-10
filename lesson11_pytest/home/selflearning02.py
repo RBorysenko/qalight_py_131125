@@ -168,9 +168,10 @@ def create_student(**kwargs):
     # return student
     return student | kwargs
 
-print(create_student(name="Bob", age=30, group="AAA"))
-print(create_student(grade="BB"))
-print(create_student(age="Ted😉", ))
+if __name__ == "__main__":
+    print(create_student(name="Bob", age=30, group="AAA"))
+    print(create_student(grade="BB"))
+    print(create_student(age="Ted😉", ))
 # ---------------------------------------------------------------------------------
 # def flexible_function(*args, **kwargs):
 #     """
